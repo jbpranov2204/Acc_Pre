@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:myapp/Login_Page/forgot.dart';
+import 'package:myapp/Login_Page/map.dart';
 import 'package:myapp/Login_Page/sign_up.dart';
 
 class LoginPage extends StatelessWidget {
@@ -70,7 +71,9 @@ class LoginPage extends StatelessWidget {
               // Login Button
               ElevatedButton(
                 onPressed: () {
-                  print('Email: ${emailController.text}, Password: ${passwordController.text}');
+                   Navigator.of(context).push(MaterialPageRoute(
+          builder: (context) => MapPage(),
+              ));
                 },
                 child: Text('Login'),
                 style: ElevatedButton.styleFrom(

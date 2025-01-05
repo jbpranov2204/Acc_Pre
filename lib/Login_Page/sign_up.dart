@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:myapp/Login_Page/map.dart';
 
 class SignUpPage extends StatefulWidget {
   @override
@@ -170,6 +171,9 @@ class _SignUpPageState extends State<SignUpPage> {
                       ),
                     );
                   }
+                   Navigator.of(context).push(MaterialPageRoute(
+          builder: (context) => MapPage(),
+              ));
                 },
                 child: Text('Register'),
               ),
