@@ -172,7 +172,7 @@ class _SignUpPageState extends State<SignUpPage> {
                     );
                   }
                    Navigator.of(context).push(MaterialPageRoute(
-          builder: (context) => MapPage(),
+          builder: (context) => MapScreen(),
               ));
                 },
                 child: Text('Register'),
