@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:myapp/Login_Page/login.dart';
-import 'package:myapp/Login_Page/map.dart';
+
 
 void main(){
   runApp(MyApp());
