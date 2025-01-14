@@ -1,9 +1,7 @@
-
 import 'package:flutter/material.dart';
 import 'package:myapp/Login_Page/login.dart';
-import 'package:myapp/Login_Page/map.dart';
 
-void main(){
+void main() {
   runApp(MyApp());
 }
 
@@ -13,15 +11,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      
-      theme: ThemeData(
-         brightness: Brightness.light
-         
-         
-      ),
-        home:LoginPage(),
-        debugShowCheckedModeBanner: false,
-
+      theme: ThemeData(brightness: Brightness.light),
+      home: LoginPage(),
+      debugShowCheckedModeBanner: false,
     );
   }
 }
