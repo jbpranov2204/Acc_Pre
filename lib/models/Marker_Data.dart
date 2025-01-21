@@ -1,4 +1,3 @@
-// import 'package:flutter/material.dart';
 import 'package:latlong2/latlong.dart';
 
 class Markerdata {
@@ -8,5 +7,6 @@ class Markerdata {
 
 
   Markerdata({required this.position, required this.title, required this.description});
+
 
 }
